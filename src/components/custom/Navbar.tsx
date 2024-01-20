@@ -18,7 +18,7 @@ export default function Navbar() {
     }
 
     const handleSearch = () => {
-        console.log(search);
+        /* console.log(search); */
     }
 
     return (
@@ -26,7 +26,7 @@ export default function Navbar() {
             <MaxWidthWrapper className='flex items-center gap-8'>
                 <Link href="/" className='flex gap-3 items-center justify-center'>
                     <Image
-                        src='/assets/icon.jpg'
+                        src='/docs/assets/icon.jpg'
                         alt='Arrive Chat'
                         width={50}
                         height={50}

@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 
-const isProd = process.env.NODE_ENV === 'production'
-
 const nextConfig = {
-    assetPrefix: isProd ? 'https://ae.arrive.waysdatalabs.com/docs' : undefined,
+   /*  assetPrefix: isProd ? 'https://ae.arrive.waysdatalabs.com/docs' : undefined, */
+    basePath: '/docs',
 }
 
 module.exports = nextConfig
